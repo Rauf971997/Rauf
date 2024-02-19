@@ -1,0 +1,29 @@
+/* Certificates Design */
+.certificat-photo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.certificat-photo img {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(32, 222, 222, 0.3);
+  transition: box-shadow 0.3s ease;
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
+  transition: transform 0.6s, box-shadow 0.5s;
+}
+
+.certificat-photo img:hover {
+  transform: translateY(-10px) rotateX(10deg);
+  box-shadow: 0px 0px 50px rgba(32, 222, 222, 0.8);
+}
+
+
+
+
+
